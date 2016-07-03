@@ -4,13 +4,13 @@ Example Generate generator, to show how Generate works.
 
 ## What is "Generate"?
 
-Generate is a command line tool and developer framework for scaffolding out new GitHub projects using [plugins](https://github.com/generate/generate/blob/master/docs/){plugins.md}, [generators](https://github.com/generate/generate/blob/master/docs/){generators.md} and [tasks](https://github.com/generate/generate/blob/master/docs/){tasks.md}. Answers to prompts and the user's environment can be used to determine the templates, directories, files and contents to build.
+Generate is a command line tool and developer framework for scaffolding out new GitHub projects using [plugins](https://github.com/generate/generate/blob/master/docs/plugins.md) ,[generators](https://github.com/generate/generate/blob/master/docs/generators.md) and[tasks](https://github.com/generate/generate/blob/master/docs/tasks.md) . Answers to prompts and the user's environment can be used to determine the templates, directories, files and contents to build.
 
 For more information:
 
 * Visit the [generate project](https://github.com/generate/generate)
 * Visit the [generate documentation](https://github.com/generate/generate/blob/master/docs/)
-* Find [generators on npm](https://www.npmjs.com/browse/keyword/generate-generator) (help us [author micro-generators](https://github.com/generate/generate/blob/master/docs/){micro-generators.md})
+* Find [generators on npm](https://www.npmjs.com/browse/keyword/generate-generator) (help us [author micro-generators](https://github.com/generate/generate/blob/master/docs/micro-generators.md) )
 
 ## What is generate-example?
 
