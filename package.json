@@ -1,6 +1,6 @@
 {
   "name": "generate-example",
-  "description": "Generate a node.js project.",
+  "description": "Example Generate generator, to show how Generate works.",
   "version": "0.1.0",
   "homepage": "https://github.com/generate/generate-example",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
@@ -68,25 +68,26 @@
     "yo"
   ],
   "verb": {
-    "related": {
-      "list": [
-        "generate"
-      ]
-    },
     "toc": false,
-    "layout": "generator",
+    "layout": "common-minimal",
     "tasks": [
       "readme"
     ],
     "plugins": [
       "gulp-format-md"
     ],
-    "lint": {
-      "reflinks": true
+    "related": {
+      "list": [
+        "generate"
+      ]
     },
     "reflinks": [
       "generate",
-      "verb"
-    ]
+      "verb",
+      "verb-readme-generator"
+    ],
+    "lint": {
+      "reflinks": true
+    }
   }
 }
