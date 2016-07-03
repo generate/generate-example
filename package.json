@@ -1,0 +1,92 @@
+{
+  "name": "generate-example",
+  "description": "Generate a node.js project.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/generate/generate-example",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "generate/generate-example",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/generate-example/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "generator.js",
+    "index.js",
+    "LICENSE",
+    "README.md",
+    "templates"
+  ],
+  "main": "index.js",
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "is-valid-app": "^0.2.0"
+  },
+  "devDependencies": {
+    "delete": "^0.3.2",
+    "generate": "^0.8.0",
+    "gulp-format-md": "^0.1.9",
+    "mocha": "^2.5.3",
+    "npm-install-global": "^0.1.2"
+  },
+  "keywords": [
+    "boilerplate",
+    "build",
+    "cli",
+    "cli-app",
+    "command-line",
+    "create",
+    "dev",
+    "development",
+    "example",
+    "framework",
+    "front",
+    "frontend",
+    "generate",
+    "generategenerator",
+    "generateplugin",
+    "generator",
+    "init",
+    "initialize",
+    "new",
+    "node",
+    "plugin",
+    "project",
+    "projects",
+    "scaffold",
+    "scaffolder",
+    "scaffolding",
+    "template",
+    "templates",
+    "webapp",
+    "yeoman",
+    "yo"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "generate"
+      ]
+    },
+    "toc": false,
+    "layout": "generator",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "reflinks": [
+      "generate",
+      "verb"
+    ]
+  }
+}

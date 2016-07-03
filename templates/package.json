@@ -1,0 +1,7 @@
+{
+  "name": "<%= ask('project.name') %>",
+  "description": "<%= ask('project.description') %>",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "generate-example-scaffold-basic",
+  "private": true,
+  "description": "Scaffold for a basic example.",
+  "main": "index.js",
+  "dependencies": {
+    "scaffold": "^0.2.6"
+  }
+}
